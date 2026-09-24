@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Do NOT ignore model artifacts
+!ml/artifacts/selected_model/model.joblib
+!ml/artifacts/selected_model/metadata.json
+
+# Ignore MLflow internal local state if you want, but keep artifacts directory structure
+ml/mlruns/
+mlruns.db
+scratch/

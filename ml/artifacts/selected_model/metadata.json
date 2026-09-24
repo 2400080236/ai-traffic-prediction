@@ -1,0 +1,26 @@
+{
+    "model_name": "XGBoost",
+    "model_version": "1.0",
+    "training_date": "2026-09-23T22:50:54.063604",
+    "features": [
+        "temp",
+        "rain_1h",
+        "snow_1h",
+        "clouds_all",
+        "weather_main",
+        "hour_of_day",
+        "day_of_week",
+        "month",
+        "is_holiday"
+    ],
+    "metrics": {
+        "MAE": 296.29998779296875,
+        "RMSE": 509.51185278166,
+        "R2": 0.9329491257667542
+    },
+    "dataset_info": {
+        "train_size": 38563,
+        "test_size": 9641,
+        "split_date": "2017-11-01 20:00:00"
+    }
+}
